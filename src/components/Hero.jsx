@@ -54,7 +54,7 @@ const Hero = () => {
         scale: 1,
         width: "100%",
         height: "100%",
-        duration: 0.5,
+        duration: 1,
         ease: "power1.inOut",
       }).from("#current-video", {
         transformOrigin: "center center",
