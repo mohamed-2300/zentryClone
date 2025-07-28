@@ -1,12 +1,13 @@
-import React from 'react'
+import About from './components/About'
 import Hero from './components/Hero'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <main className='realative min-h-screen w-screen over overflow-x-hidden'>
+        <Navbar />
         <Hero />
-
-        <section className='bg-blue-700 h-screen'></section>
+        <About />
     </main>
   )
 }
